@@ -1,4 +1,4 @@
-export type StudyMode = 'explain' | 'quiz' | 'review' | 'flashcard';
+export type StudyMode = 'explain' | 'quiz' | 'review' | 'flashcard' | 'mindmap' | 'studyplan';
 
 export interface Message {
   role: 'user' | 'assistant';
